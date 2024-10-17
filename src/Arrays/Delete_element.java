@@ -2,12 +2,12 @@ package Arrays;
 
 public class Delete_element {
 
-	public static int[] removeElem(int[] arr, int index) {
+	public static int[] removeElem(int[] arr, int dltIndex) {
 
 		int anotherArray[] = new int[arr.length - 1];
 
 		for (int i = 0; i < anotherArray.length; i++) {
-			if (i >= index) {
+			if (i >= dltIndex) {
 				anotherArray[i] = arr[i + 1];
 			} else {
 				anotherArray[i] = arr[i];

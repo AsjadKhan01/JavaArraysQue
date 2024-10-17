@@ -15,16 +15,14 @@ public class Segregets_0s_and_01 {
 				}
 			}
 		}
-
 		return arr;
 	}
 
 	public static void main(String[] args) {
-		int arr[] = { 0, 0, 1, 0, 1, 1, 0, 0, 1 };
+		int arr[] = { 1, 0, 0, 1, 0, 1, 1, 0, 0, 1 };
 
 		System.out.println(Arrays.toString(arr));
 
-		int[] segregets = segregets(arr);
-		System.out.println(Arrays.toString(segregets));
+		System.out.println(Arrays.toString(segregets(arr)));
 	}
 }
