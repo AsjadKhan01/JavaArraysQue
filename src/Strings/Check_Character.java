@@ -11,13 +11,13 @@ public class Check_Character {
 			char ch = sc.next().charAt(0);
 			
 			int chr = (int)ch;
-			System.out.println(chr);
+			System.out.print(chr);
 			
 			if(ch==97||ch==101||ch==105||ch==111||ch==117) {
-				System.out.println("WOVEL");
+				System.out.println(" : WOVEL");
 			}
 			else {
-				System.out.println("CONSTONENTS");
+				System.out.println(" : CONSTONENTS");
 			}
 		}
 	}
