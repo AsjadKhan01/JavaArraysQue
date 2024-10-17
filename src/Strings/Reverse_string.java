@@ -8,6 +8,8 @@ public class Reverse_string {
 		System.out.print("Enter a string : ");
 		String str = sc.nextLine();
 				
+		double nextDouble = sc.nextDouble();
+		
 		String rvs = "";
 		for(int i=str.length()-1; i>=0; i--) {
 			rvs = rvs + str.charAt(i);
