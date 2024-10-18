@@ -24,14 +24,15 @@ public class Longest_Common_Prefix {
 
 		// Check if there's no common prefix
 		if (i == 0)
-			return "-1";
+			return "0";
 
 		// Return the common prefix
 		return first.substring(0, i);
 	}
 
 	public static void main(String[] args) {
-		String[] strs = { "geeksforgeeks", "geeks", "geek", "geezer" };
+		String[] strs = { "geeksforgeeks", "geeks", "qgeek", "geezer" };
+
 		System.out.println("The longest common prefix is: " + longestCommonPrefix(strs));
 	}
 }
