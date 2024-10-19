@@ -56,7 +56,7 @@ public class Roman_to_Decimal {
 	}
 
 	public static void main(String[] args) {
-		String str = "IX";
+		String str = "VIV";
 		System.out.println(romanToDecimal(str));
 	}
-}
+}         
