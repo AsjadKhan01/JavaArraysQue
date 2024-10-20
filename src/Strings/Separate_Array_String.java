@@ -1,6 +1,5 @@
 package Strings;
 
-import java.util.Arrays;
 
 public class Separate_Array_String {
 	public static void main(String[] args) {
