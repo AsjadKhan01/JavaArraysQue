@@ -31,7 +31,7 @@ public class Longest_Common_Prefix {
 	}
 
 	public static void main(String[] args) {
-		String[] strs = { "geeksforgeeks", "geeks", "qgeek", "geezer" };
+		String[] strs = { "Asjad", "Asjad is", "Asjad is the", "Asjad is a Software Developer" };
 
 		System.out.println("The longest common prefix is: " + longestCommonPrefix(strs));
 	}
